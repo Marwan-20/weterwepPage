@@ -49,7 +49,7 @@ function App() {
     // req
     axios
       .get(
-        `https://api.openweathermap.org/data/2.5/weather?lat=${userLocation.latitude}&lon=${userLocation.longitude}&appid=a3e97ed2229d8ef963e047cb6390385f`,
+        `https://api.openweathermap.org/data/2.5/weather?lat=${userLocation.latitude}&lon=${userLocation.longitude}&appid={youe Api key},
         {
           cancelToken: new axios.CancelToken((c) => {
             cancelAxsios = c;
