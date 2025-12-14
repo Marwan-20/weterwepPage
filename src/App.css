@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body{
+  font-family: Beiruti;
+  background-color: #646cff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  direction: rtl;
+  flex-wrap: nowrap;
+  
+}
+
+.card {
+  background-color: #414af491;
+}
+
+/* Font configration */
+@font-face {
+  font-family: Beiruti;
+  src: url("public/font/Beiruti/static/Beiruti-Regular.ttf");
+}
